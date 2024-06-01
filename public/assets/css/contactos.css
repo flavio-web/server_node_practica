@@ -1,0 +1,62 @@
+#contactos{
+    background-color: #fff;
+    margin: 100px 0px; 
+    text-align: center;
+}
+
+#contactos .contenedor{
+    padding: 40px;
+    background-color: #F2F2F2; 
+}
+
+#contactos h2{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+#contactos p{
+    padding: 40px;
+}
+
+#contactos .formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-form{
+    position: relative;
+    margin: 20px;
+}
+
+.item-form:first-child{
+    flex-grow: 3;
+}
+
+.item-form input{
+    width: 100%;
+    padding: 1em;
+    background: #fff;
+    border: 1px solid #010205;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+    outline: none;
+}
+
+.item-form button{
+    box-shadow: inset 0px 0px 0px 1px #010205;
+    background: transparent;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #010205;
+    padding: 1em;
+}
+
+.item-form button:hover{
+    background-color: #010205;
+    color: #fff;
+}

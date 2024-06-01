@@ -1,0 +1,45 @@
+#servicios{
+    padding: 20px;
+    background-color: #3b6fda;
+    color: white;
+    text-align: center;
+}
+
+#servicios h2{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+#servicios .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-service{
+    position: relative;
+    margin: 20px;
+    width: 200px;
+    height:200px;
+}
+
+.service{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translate(-50%, -50%);
+}
+
+.info-service i{
+    font-size: 50px;
+}
+
+.info-service h4{
+    padding-top: 10px;
+}
